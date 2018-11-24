@@ -20,8 +20,8 @@
 		8420438421A7F93C0028E930 /* ZKNetLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */; };
 		8420438521A7F93C0028E930 /* ZKShowNetLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */; };
 		8420438621A7F93C0028E930 /* ZKNetLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437F21A7F93C0028E930 /* ZKNetLog.m */; };
-		8420438B21A7FB350028E930 /* UIViewController+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */; };
-		8420438E21A802380028E930 /* UIWindow+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420438D21A802380028E930 /* UIWindow+ZK_Add.m */; };
+		8420439421A8E2780028E930 /* UIWindow+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420439121A8E2780028E930 /* UIWindow+ZK_Add.m */; };
+		8420439521A8E2780028E930 /* UIViewController+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420439321A8E2780028E930 /* UIViewController+ZK_Add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +49,10 @@
 		8420437E21A7F93C0028E930 /* ZKNetLogRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogRecorder.h; sourceTree = "<group>"; };
 		8420437F21A7F93C0028E930 /* ZKNetLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLog.m; sourceTree = "<group>"; };
 		8420438721A7F9B90028E930 /* ZKNetLogHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKNetLogHeader.h; sourceTree = "<group>"; };
-		8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZK_Add.m"; sourceTree = "<group>"; };
-		8420438A21A7FB350028E930 /* UIViewController+ZK_Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZK_Add.h"; sourceTree = "<group>"; };
-		8420438C21A802380028E930 /* UIWindow+ZK_Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZK_Add.h"; sourceTree = "<group>"; };
-		8420438D21A802380028E930 /* UIWindow+ZK_Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZK_Add.m"; sourceTree = "<group>"; };
+		8420439021A8E2780028E930 /* UIViewController+ZK_Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZK_Add.h"; sourceTree = "<group>"; };
+		8420439121A8E2780028E930 /* UIWindow+ZK_Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZK_Add.m"; sourceTree = "<group>"; };
+		8420439221A8E2780028E930 /* UIWindow+ZK_Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZK_Add.h"; sourceTree = "<group>"; };
+		8420439321A8E2780028E930 /* UIViewController+ZK_Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZK_Add.m"; sourceTree = "<group>"; };
 		FE4FE5C0539785493931F6EC /* Pods-ZKNetLogDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNetLogDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNetLogDemoOC/Pods-ZKNetLogDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,11 +115,11 @@
 		8420437121A7F93C0028E930 /* ZKNetLog */ = {
 			isa = PBXGroup;
 			children = (
+				8420439621A8E2820028E930 /* Tools */,
 				8420437421A7F93C0028E930 /* ZKShowNetLogView.h */,
 				8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */,
 				8420437221A7F93C0028E930 /* ZKNetLog.h */,
 				8420437F21A7F93C0028E930 /* ZKNetLog.m */,
-				8420438821A7FB260028E930 /* Tools */,
 				8420437E21A7F93C0028E930 /* ZKNetLogRecorder.h */,
 				8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */,
 				8420437B21A7F93C0028E930 /* ZKNetLogListVC.h */,
@@ -133,15 +133,15 @@
 			path = ../ZKNetLog;
 			sourceTree = "<group>";
 		};
-		8420438821A7FB260028E930 /* Tools */ = {
+		8420439621A8E2820028E930 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				8420438A21A7FB350028E930 /* UIViewController+ZK_Add.h */,
-				8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */,
-				8420438C21A802380028E930 /* UIWindow+ZK_Add.h */,
-				8420438D21A802380028E930 /* UIWindow+ZK_Add.m */,
+				8420439021A8E2780028E930 /* UIViewController+ZK_Add.h */,
+				8420439321A8E2780028E930 /* UIViewController+ZK_Add.m */,
+				8420439221A8E2780028E930 /* UIWindow+ZK_Add.h */,
+				8420439121A8E2780028E930 /* UIWindow+ZK_Add.m */,
 			);
-			path = Tools;
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		A971A5A2EF6993B07ADD7748 /* Frameworks */ = {
@@ -251,12 +251,12 @@
 			files = (
 				8420436021A7F9040028E930 /* ViewController.m in Sources */,
 				8420438321A7F93C0028E930 /* ZKNetLogRecorder.m in Sources */,
-				8420438B21A7FB350028E930 /* UIViewController+ZK_Add.m in Sources */,
 				8420436B21A7F90E0028E930 /* main.m in Sources */,
-				8420438E21A802380028E930 /* UIWindow+ZK_Add.m in Sources */,
+				8420439421A8E2780028E930 /* UIWindow+ZK_Add.m in Sources */,
 				8420438621A7F93C0028E930 /* ZKNetLog.m in Sources */,
 				8420438521A7F93C0028E930 /* ZKShowNetLogView.m in Sources */,
 				8420438221A7F93C0028E930 /* ZKNetLogCell.m in Sources */,
+				8420439521A8E2780028E930 /* UIViewController+ZK_Add.m in Sources */,
 				8420438021A7F93C0028E930 /* ZKNetLogListVC.m in Sources */,
 				8420435D21A7F9040028E930 /* AppDelegate.m in Sources */,
 			);

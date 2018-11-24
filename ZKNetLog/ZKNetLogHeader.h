@@ -12,6 +12,5 @@
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define kStatusBarHeight  [UIApplication sharedApplication].statusBarFrame.size.height
 
-#import "UIViewController+ZK_Add.h"
-#import "ZKShowNetLogView.h"
+ 
 #endif /* Header_h */

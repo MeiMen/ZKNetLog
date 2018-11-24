@@ -9,6 +9,7 @@
 #import "ZKShowNetLogView.h"
 #import "ZKNetLogListVC.h"
 #import "ZKNetLogHeader.h"
+#import "UIViewController+ZK_Add.h"
 @interface ZKShowNetLogView()
 
 @property (nonatomic, assign) CGPoint starPoint;
