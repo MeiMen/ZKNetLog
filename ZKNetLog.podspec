@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "ZKNetLog"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "net log showing "
 
 s.homepage     = "https://github.com/MeiMen/ZKNetLog"
@@ -21,7 +21,7 @@ s.author             = { "zhangkai" => "158521117@qq.com" }
 s.platform     = :ios, "10.0"
 
 
-s.source       = { :git => "https://github.com/MeiMen/ZKNetLog.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/MeiMen/ZKNetLog.git", :tag => "0.0.2" }
 
 s.source_files  = "ZKNetLog/*"
 
