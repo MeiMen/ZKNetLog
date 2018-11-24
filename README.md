@@ -5,7 +5,7 @@
 
 # Installation with CocoaPods
 ```
-pod 'ZKNetLog', '~> 0.0.1'
+pod 'ZKNetLog'
 ```  
 # Usage
   ZKNetLog will automatically run when your App launch, if you want to control the log manually try this:
