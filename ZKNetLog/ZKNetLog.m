@@ -23,8 +23,16 @@ static BOOL ZKEnableCommandLineLog = YES;
     ZKEnableLog = NO;
     ZKEnableCommandLineLog = NO;
     #endif
+    
+    //AFN
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dataTaskDidComplete:) name:@"com.alamofire.networking.task.complete" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dataTaskDidResume:) name:@"com.alamofire.networking.task.resume" object:nil];
+    
+ 
+    //Alamofire
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(alamofireDataTaskDidComplete:) name:@"org.alamofire.notification.name.task.didComplete" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(alamofireDataTaskDidResume:) name:@"org.alamofire.notification.name.task.didResume" object:nil];
+    
 }
 
 
@@ -75,6 +83,49 @@ static BOOL ZKEnableCommandLineLog = YES;
     [self logResponseUrl:urlString baseURL:@"" response:responseObj errCode:err.code errMsg:[err localizedDescription] ];
 }
 
++ (void)alamofireDataTaskDidResume:(NSNotification *)notificaion {
+    
+    NSURLSessionTask *task = notificaion.userInfo[@"org.alamofire.notification.key.task"];
+    NSString *absoluteString = task.originalRequest.URL.absoluteString;
+    NSArray *arr = [absoluteString componentsSeparatedByString:@"?"];
+    NSString *urlString = arr.firstObject;
+    NSString *paramStr = arr.lastObject;
+    if ([task.originalRequest.HTTPMethod isEqualToString:@"GET"]) {
+        NSMutableDictionary *keyValues = [NSMutableDictionary dictionary];
+        NSArray *paramKeyValueStrs = [paramStr componentsSeparatedByString:@"&"];
+        for (NSString *string in paramKeyValueStrs) {
+            NSArray *keyValue = [string componentsSeparatedByString:@"="];
+            NSString *value = keyValue.lastObject;
+            if (value == nil || [value isKindOfClass:[NSNull class]]) {
+                value = @"(null)";
+            }
+            [keyValues setValue:value forKey: keyValue.firstObject];
+        }
+        [self logRequestUrl:urlString baseURL:@"" param:keyValues];
+    }else {
+        id responseObject = [NSJSONSerialization JSONObjectWithData:task.originalRequest.HTTPBody options:0 error:nil];
+        [self logRequestUrl:urlString baseURL:@"" param:responseObject];
+    }
+}
+
++ (void)alamofireDataTaskDidComplete:(NSNotification *)notificaion {
+    
+    NSURLSessionTask *task = notificaion.userInfo[@"org.alamofire.notification.key.task"];
+    NSString *absoluteString = task.originalRequest.URL.absoluteString;
+    NSArray *arr = [absoluteString componentsSeparatedByString:@"?"];
+    NSString *urlString = arr.firstObject;
+    NSError *err = task.error;
+    
+    id responseObj = notificaion.userInfo[@"org.alamofire.notification.key.responseData"];
+    if (err){
+        
+        responseObj = [NSJSONSerialization JSONObjectWithData:responseObj options:0 error:nil];
+    }else {
+        
+        responseObj = [NSJSONSerialization JSONObjectWithData:responseObj options:0 error:&err];
+    }
+    [self logResponseUrl:urlString baseURL:@"" response:responseObj errCode:err.code errMsg:[err localizedDescription] ];
+}
 
 
 +(void)logRequestUrl:(NSString *)url baseURL:(NSString *)baseURL param:(id)param {
