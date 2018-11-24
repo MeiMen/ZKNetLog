@@ -8,7 +8,7 @@
 pod 'ZKNetLog', '~> 0.0.1'
 ```  
 # Usage
-  ZKNetLog will automatically run when your App luanch, if you want to control the log manually try this:
+  ZKNetLog will automatically run when your App launch, if you want to control the log manually try this:
 
 ```
   [ZKNetLog enable:NO];
