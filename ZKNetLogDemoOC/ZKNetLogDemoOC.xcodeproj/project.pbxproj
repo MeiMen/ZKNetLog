@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318C175E15EFABC90A065FD8 /* libPods-ZKNetLogDemoOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3857C057C4F739D674D039C6 /* libPods-ZKNetLogDemoOC.a */; };
+		8420435D21A7F9040028E930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420435C21A7F9040028E930 /* AppDelegate.m */; };
+		8420436021A7F9040028E930 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420435F21A7F9040028E930 /* ViewController.m */; };
+		8420436321A7F9040028E930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420436121A7F9040028E930 /* Main.storyboard */; };
+		8420436521A7F90E0028E930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8420436421A7F90E0028E930 /* Assets.xcassets */; };
+		8420436821A7F90E0028E930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8420436621A7F90E0028E930 /* LaunchScreen.storyboard */; };
+		8420436B21A7F90E0028E930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420436A21A7F90E0028E930 /* main.m */; };
+		8420438021A7F93C0028E930 /* ZKNetLogListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437521A7F93C0028E930 /* ZKNetLogListVC.m */; };
+		8420438221A7F93C0028E930 /* ZKNetLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437821A7F93C0028E930 /* ZKNetLogCell.m */; };
+		8420438321A7F93C0028E930 /* ZKNetLogRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */; };
+		8420438421A7F93C0028E930 /* ZKNetLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */; };
+		8420438521A7F93C0028E930 /* ZKShowNetLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */; };
+		8420438621A7F93C0028E930 /* ZKNetLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437F21A7F93C0028E930 /* ZKNetLog.m */; };
+		8420438B21A7FB350028E930 /* UIViewController+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */; };
+		8420438E21A802380028E930 /* UIWindow+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420438D21A802380028E930 /* UIWindow+ZK_Add.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16FA407AEA1C4FC2E8415C81 /* Pods-ZKNetLogDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNetLogDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNetLogDemoOC/Pods-ZKNetLogDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
+		3857C057C4F739D674D039C6 /* libPods-ZKNetLogDemoOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZKNetLogDemoOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8420435821A7F9040028E930 /* ZKNetLogDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKNetLogDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8420435B21A7F9040028E930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8420435C21A7F9040028E930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8420435E21A7F9040028E930 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8420435F21A7F9040028E930 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8420436221A7F9040028E930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8420436421A7F90E0028E930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8420436721A7F90E0028E930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8420436921A7F90E0028E930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8420436A21A7F90E0028E930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8420437221A7F93C0028E930 /* ZKNetLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLog.h; sourceTree = "<group>"; };
+		8420437421A7F93C0028E930 /* ZKShowNetLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKShowNetLogView.h; sourceTree = "<group>"; };
+		8420437521A7F93C0028E930 /* ZKNetLogListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogListVC.m; sourceTree = "<group>"; };
+		8420437821A7F93C0028E930 /* ZKNetLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogCell.m; sourceTree = "<group>"; };
+		8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogRecorder.m; sourceTree = "<group>"; };
+		8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKNetLogCell.xib; sourceTree = "<group>"; };
+		8420437B21A7F93C0028E930 /* ZKNetLogListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogListVC.h; sourceTree = "<group>"; };
+		8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKShowNetLogView.m; sourceTree = "<group>"; };
+		8420437D21A7F93C0028E930 /* ZKNetLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogCell.h; sourceTree = "<group>"; };
+		8420437E21A7F93C0028E930 /* ZKNetLogRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogRecorder.h; sourceTree = "<group>"; };
+		8420437F21A7F93C0028E930 /* ZKNetLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLog.m; sourceTree = "<group>"; };
+		8420438721A7F9B90028E930 /* ZKNetLogHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKNetLogHeader.h; sourceTree = "<group>"; };
+		8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZK_Add.m"; sourceTree = "<group>"; };
+		8420438A21A7FB350028E930 /* UIViewController+ZK_Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZK_Add.h"; sourceTree = "<group>"; };
+		8420438C21A802380028E930 /* UIWindow+ZK_Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZK_Add.h"; sourceTree = "<group>"; };
+		8420438D21A802380028E930 /* UIWindow+ZK_Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZK_Add.m"; sourceTree = "<group>"; };
+		FE4FE5C0539785493931F6EC /* Pods-ZKNetLogDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKNetLogDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKNetLogDemoOC/Pods-ZKNetLogDemoOC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8420435521A7F9040028E930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318C175E15EFABC90A065FD8 /* libPods-ZKNetLogDemoOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036C2CB4E0A56064481828B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16FA407AEA1C4FC2E8415C81 /* Pods-ZKNetLogDemoOC.debug.xcconfig */,
+				FE4FE5C0539785493931F6EC /* Pods-ZKNetLogDemoOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8420434F21A7F9040028E930 = {
+			isa = PBXGroup;
+			children = (
+				8420437121A7F93C0028E930 /* ZKNetLog */,
+				8420435A21A7F9040028E930 /* ZKNetLogDemoOC */,
+				8420435921A7F9040028E930 /* Products */,
+				036C2CB4E0A56064481828B8 /* Pods */,
+				A971A5A2EF6993B07ADD7748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8420435921A7F9040028E930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8420435821A7F9040028E930 /* ZKNetLogDemoOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8420435A21A7F9040028E930 /* ZKNetLogDemoOC */ = {
+			isa = PBXGroup;
+			children = (
+				8420435B21A7F9040028E930 /* AppDelegate.h */,
+				8420435C21A7F9040028E930 /* AppDelegate.m */,
+				8420435E21A7F9040028E930 /* ViewController.h */,
+				8420435F21A7F9040028E930 /* ViewController.m */,
+				8420436121A7F9040028E930 /* Main.storyboard */,
+				8420436421A7F90E0028E930 /* Assets.xcassets */,
+				8420436621A7F90E0028E930 /* LaunchScreen.storyboard */,
+				8420436921A7F90E0028E930 /* Info.plist */,
+				8420436A21A7F90E0028E930 /* main.m */,
+			);
+			path = ZKNetLogDemoOC;
+			sourceTree = "<group>";
+		};
+		8420437121A7F93C0028E930 /* ZKNetLog */ = {
+			isa = PBXGroup;
+			children = (
+				8420437421A7F93C0028E930 /* ZKShowNetLogView.h */,
+				8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */,
+				8420437221A7F93C0028E930 /* ZKNetLog.h */,
+				8420437F21A7F93C0028E930 /* ZKNetLog.m */,
+				8420438821A7FB260028E930 /* Tools */,
+				8420437E21A7F93C0028E930 /* ZKNetLogRecorder.h */,
+				8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */,
+				8420437B21A7F93C0028E930 /* ZKNetLogListVC.h */,
+				8420437521A7F93C0028E930 /* ZKNetLogListVC.m */,
+				8420437D21A7F93C0028E930 /* ZKNetLogCell.h */,
+				8420437821A7F93C0028E930 /* ZKNetLogCell.m */,
+				8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */,
+				8420438721A7F9B90028E930 /* ZKNetLogHeader.h */,
+			);
+			name = ZKNetLog;
+			path = ../ZKNetLog;
+			sourceTree = "<group>";
+		};
+		8420438821A7FB260028E930 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8420438A21A7FB350028E930 /* UIViewController+ZK_Add.h */,
+				8420438921A7FB350028E930 /* UIViewController+ZK_Add.m */,
+				8420438C21A802380028E930 /* UIWindow+ZK_Add.h */,
+				8420438D21A802380028E930 /* UIWindow+ZK_Add.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A971A5A2EF6993B07ADD7748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3857C057C4F739D674D039C6 /* libPods-ZKNetLogDemoOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8420435721A7F9040028E930 /* ZKNetLogDemoOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8420436E21A7F90E0028E930 /* Build configuration list for PBXNativeTarget "ZKNetLogDemoOC" */;
+			buildPhases = (
+				B0629AEE9DB71187DCEF2A19 /* [CP] Check Pods Manifest.lock */,
+				8420435421A7F9040028E930 /* Sources */,
+				8420435521A7F9040028E930 /* Frameworks */,
+				8420435621A7F9040028E930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKNetLogDemoOC;
+			productName = ZKNetLogDemoOC;
+			productReference = 8420435821A7F9040028E930 /* ZKNetLogDemoOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8420435021A7F9040028E930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					8420435721A7F9040028E930 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8420435321A7F9040028E930 /* Build configuration list for PBXProject "ZKNetLogDemoOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8420434F21A7F9040028E930;
+			productRefGroup = 8420435921A7F9040028E930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8420435721A7F9040028E930 /* ZKNetLogDemoOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8420435621A7F9040028E930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8420436821A7F90E0028E930 /* LaunchScreen.storyboard in Resources */,
+				8420436521A7F90E0028E930 /* Assets.xcassets in Resources */,
+				8420436321A7F9040028E930 /* Main.storyboard in Resources */,
+				8420438421A7F93C0028E930 /* ZKNetLogCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0629AEE9DB71187DCEF2A19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKNetLogDemoOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8420435421A7F9040028E930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8420436021A7F9040028E930 /* ViewController.m in Sources */,
+				8420438321A7F93C0028E930 /* ZKNetLogRecorder.m in Sources */,
+				8420438B21A7FB350028E930 /* UIViewController+ZK_Add.m in Sources */,
+				8420436B21A7F90E0028E930 /* main.m in Sources */,
+				8420438E21A802380028E930 /* UIWindow+ZK_Add.m in Sources */,
+				8420438621A7F93C0028E930 /* ZKNetLog.m in Sources */,
+				8420438521A7F93C0028E930 /* ZKShowNetLogView.m in Sources */,
+				8420438221A7F93C0028E930 /* ZKNetLogCell.m in Sources */,
+				8420438021A7F93C0028E930 /* ZKNetLogListVC.m in Sources */,
+				8420435D21A7F9040028E930 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8420436121A7F9040028E930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8420436221A7F9040028E930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8420436621A7F90E0028E930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8420436721A7F90E0028E930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8420436C21A7F90E0028E930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8420436D21A7F90E0028E930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8420436F21A7F90E0028E930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FA407AEA1C4FC2E8415C81 /* Pods-ZKNetLogDemoOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKNetLogDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zk.ZKNetLogDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8420437021A7F90E0028E930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4FE5C0539785493931F6EC /* Pods-ZKNetLogDemoOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKNetLogDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zk.ZKNetLogDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8420435321A7F9040028E930 /* Build configuration list for PBXProject "ZKNetLogDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8420436C21A7F90E0028E930 /* Debug */,
+				8420436D21A7F90E0028E930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8420436E21A7F90E0028E930 /* Build configuration list for PBXNativeTarget "ZKNetLogDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8420436F21A7F90E0028E930 /* Debug */,
+				8420437021A7F90E0028E930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8420435021A7F9040028E930 /* Project object */;
+}
