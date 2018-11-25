@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ZKNetLogCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *logLabel;
-@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) UILabel *logLabel;
+@property (weak, nonatomic) UILabel *title;
 
 @end

@@ -25,7 +25,8 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    [self.tableView registerNib:[UINib nibWithNibName:@"ZKNetLogCell" bundle:nil] forCellReuseIdentifier:@"ZKNetLogCell"];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"ZKNetLogCell" bundle:nil] forCellReuseIdentifier:@"ZKNetLogCell"];
+    [self.tableView registerClass:[ZKNetLogCell class] forCellReuseIdentifier:@"ZKNetLogCell"];
     self.tableView.estimatedRowHeight = 300;
     self.dataSource = [[ZKNetLogRecorder sharedRecorder] fetchLogs];
     [self.tableView reloadData];

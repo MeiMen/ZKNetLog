@@ -17,7 +17,6 @@
 		8420438021A7F93C0028E930 /* ZKNetLogListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437521A7F93C0028E930 /* ZKNetLogListVC.m */; };
 		8420438221A7F93C0028E930 /* ZKNetLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437821A7F93C0028E930 /* ZKNetLogCell.m */; };
 		8420438321A7F93C0028E930 /* ZKNetLogRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */; };
-		8420438421A7F93C0028E930 /* ZKNetLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */; };
 		8420438521A7F93C0028E930 /* ZKShowNetLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */; };
 		8420438621A7F93C0028E930 /* ZKNetLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420437F21A7F93C0028E930 /* ZKNetLog.m */; };
 		8420439421A8E2780028E930 /* UIWindow+ZK_Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420439121A8E2780028E930 /* UIWindow+ZK_Add.m */; };
@@ -42,7 +41,6 @@
 		8420437521A7F93C0028E930 /* ZKNetLogListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogListVC.m; sourceTree = "<group>"; };
 		8420437821A7F93C0028E930 /* ZKNetLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogCell.m; sourceTree = "<group>"; };
 		8420437921A7F93C0028E930 /* ZKNetLogRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNetLogRecorder.m; sourceTree = "<group>"; };
-		8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKNetLogCell.xib; sourceTree = "<group>"; };
 		8420437B21A7F93C0028E930 /* ZKNetLogListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogListVC.h; sourceTree = "<group>"; };
 		8420437C21A7F93C0028E930 /* ZKShowNetLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKShowNetLogView.m; sourceTree = "<group>"; };
 		8420437D21A7F93C0028E930 /* ZKNetLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNetLogCell.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				8420437521A7F93C0028E930 /* ZKNetLogListVC.m */,
 				8420437D21A7F93C0028E930 /* ZKNetLogCell.h */,
 				8420437821A7F93C0028E930 /* ZKNetLogCell.m */,
-				8420437A21A7F93C0028E930 /* ZKNetLogCell.xib */,
 				8420438721A7F9B90028E930 /* ZKNetLogHeader.h */,
 			);
 			name = ZKNetLog;
@@ -213,7 +210,6 @@
 				8420436821A7F90E0028E930 /* LaunchScreen.storyboard in Resources */,
 				8420436521A7F90E0028E930 /* Assets.xcassets in Resources */,
 				8420436321A7F9040028E930 /* Main.storyboard in Resources */,
-				8420438421A7F93C0028E930 /* ZKNetLogCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
