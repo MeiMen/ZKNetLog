@@ -1,16 +1,20 @@
 PODS:
-  - Alamofire (4.7.3)
+  - Alamofire (4.8.0)
+  - ZKNetLog (0.0.3)
 
 DEPENDENCIES:
   - Alamofire
+  - ZKNetLog
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - ZKNetLog
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ZKNetLog: 9b60a71dbfc9f8c2a3f8c5df6a7d75dddfc46b24
 
-PODFILE CHECKSUM: bbeb048b358ffffd02ec9143edbb5ef307f96d1e
+PODFILE CHECKSUM: 68c0a4e94557f31b2db422767930999359e42895
 
 COCOAPODS: 1.5.3
